@@ -1,6 +1,7 @@
-python = 'i am PYHTON'
+name='Anubhab'
+lastName='Mondal'
+fullName=name + lastName
 
-print('Original text- ', python)
-print(python.upper())
-print(python.capitalize())
+
+print( 'My name is {} \nand my age is {age} '.format(name, age=27))
 
