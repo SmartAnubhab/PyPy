@@ -1,3 +1,13 @@
-input=input('Enter a number of your choice\n')
-input=int(input)-10
-print(f'The value is now {input}')
+print('LogIn form')
+
+username=input('Please enter your user name\n')
+password=input('Please enter your password\n')
+
+hidden_pw=len(password)*'*'
+#print('hey {}  your password {} is {} characters long '
+#.format(username, hidden_pw, len(password) ))
+
+print(f'hey {username}, your password {hidden_pw} is {len(password)} characters long ')
+
+
+
