@@ -1,13 +1,15 @@
-print('LogIn form')
+li = ['Anubhab', 'Ankita','Madhumita','Ajay']
 
-username=input('Please enter your user name\n')
-password=input('Please enter your password\n')
+print(li[0])
+print(li[1])
+print(li[2])
+print(li[3])
 
-hidden_pw=len(password)*'*'
-#print('hey {}  your password {} is {} characters long '
-#.format(username, hidden_pw, len(password) ))
+print(f'\n{len(li)}')
 
-print(f'hey {username}, your password {hidden_pw} is {len(password)} characters long ')
+# for(i=0; i<2; i++){
+#   print(li[i])
+# }
 
 
 
