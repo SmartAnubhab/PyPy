@@ -1,8 +1,7 @@
-name='Anubhab'
-lastName='Mondal'
-fullName=name + lastName
-age = 25
+name = input('Enter your name \n')
+#age=input('Enter your age \n')
+year=input('Enter the year you born \n')
 
-print( 'My name is {} \nand my age is {age} '.format(name, age=27))
+age = 2021-int(year)
 
-print(f'My full name is {fullName} and I am {age} years old')
+print(f'Hello {name}, your age is {age}')
