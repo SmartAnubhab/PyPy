@@ -1,15 +1,36 @@
-li = ['Anubhab', 'Ankita','Madhumita','Ajay']
+li = [
+  ['one', 'two', 'three'],
+  ['four','five','six'],
+  ['seven','eight','nine'],
+]
+print(f'printing \'li\' - {li}\n')
 
-print(li[0])
-print(li[1])
-print(li[2])
-print(li[3])
+print(li[0][0])
+print(li[0][1])
+print(li[0][2])
+print(li[1][0])
+print(li[1][1])
+print(li[1][2])
+print(li[2][0])
+print(li[2][1])
+print(li[2][2])
 
-print(f'\n{len(li)}')
+matrix = [
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+]
+print(f'\nprinting \'matrix\' - {matrix}\n')
 
-# for(i=0; i<2; i++){
-#   print(li[i])
-# }
+print(matrix[0][0])
+print(matrix[0][1])
+print(matrix[0][2])
+print(matrix[1][0])
+print(matrix[1][1])
+print(matrix[1][2])
+print(matrix[2][0])
+print(matrix[2][1])
+print(matrix[2][2])
 
 
 
