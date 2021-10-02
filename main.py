@@ -1,11 +1,10 @@
-is_magician =  False
-is_expert = False
+a, b, *c, d = {1,2,3,4,5}
+print(f'a {a}')
+print(f'b {b}')
+print(f'c {c}')
+print(f'd {d}')
 
-if is_magician :
-  if is_expert :
-    print('you are a master magician')
-  else :
-    print('at least you are getting there')
-else :
-  print('you need magic powers')
 
+
+c.insert({100},c)
+print(c)
