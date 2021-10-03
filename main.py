@@ -1,8 +1,10 @@
 user = {
-  'name' : 'ANUBHAB MONDAL',
+  'NAME' : 'ANUBHAB MONDAL',
   'ROLL' : 33,
   'SECTION' : 'A'
 }
 
-for item in user:
+for item in user.items():
   print(item)
+
+  
