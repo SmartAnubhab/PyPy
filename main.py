@@ -22,7 +22,18 @@ for row in tree:
     else:
       print(' ' , end='' )
   print()
+for i in range(3):
+  print()
 
 
+for row in picture2:
+  for pixels in row:
+    if pixels == 1:
+      print('*' , end='')
+    else:
+      print(' ' , end='' )
+  print()
+for i in range(3):
+  print()
 
 
