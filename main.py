@@ -1,39 +1,8 @@
-picture = [
-  [0,0,0,1,0,0,0],
-  [0,0,1,1,1,0,0],
-  [0,1,1,1,1,1,0],
-  [1,1,1,1,1,1,1],
-  [0,0,0,1,0,0,0],
-  [0,0,0,1,0,0,0]
-]
+def sum(num1, num2):
+  return num1+num2
 
-tree = picture
-picture2 = [
-  [1,1,1,1],
-  [1,0,0,1],
-  [1,1,1,1],
-  [1,0,0,1]
-]
+print(sum(5,4)) 
+add = sum(9.5,1.1)
 
-for row in tree:
-  for pixels in row:
-    if pixels == 1:
-      print('*' , end='')
-    else:
-      print(' ' , end='' )
-  print()
-for i in range(3):
-  print()
-
-
-for row in picture2:
-  for pixels in row:
-    if pixels == 1:
-      print('*' , end='')
-    else:
-      print(' ' , end='' )
-  print()
-for i in range(3):
-  print()
-
-
+print(add)
+print(type(add))
